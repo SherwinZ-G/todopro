@@ -1,12 +1,19 @@
 // import logo from './logo.svg';
-import './App.css';
+import { Header } from './Components/layout/Header';
+import { Content } from './Components/layout/Content';
+import { Sidebar } from './Components/layout/Sidebar';
 
-function App() {
-  return (
-    <div className="App">
-     <p>hello world</p>
+export const App=()=> {
+  return(
+    <div>
+    <Header />
+    <Content />
+    <Sidebar />
     </div>
-  );
+
+  )
 }
+
+
 
 export default App;
